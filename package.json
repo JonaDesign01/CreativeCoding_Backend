@@ -1,0 +1,28 @@
+{
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "A simple Express app",
+  "main": "node.js",
+  "dependencies": {
+    "api": "^5.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.9",
+    "node-webcam": "^0.8.1",
+    "puppeteer": "^19.7.5",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "prettier": "2.8.7"
+  },
+  "scripts": {
+    "start": "nodemon node.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
