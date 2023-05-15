@@ -16,7 +16,7 @@ module.exports.save = function (filename) {
   }
   let mijnNaam = generateUniqueName();
 
-  const apiKey = '29e33950-936e-418e-a23e-9a07a6a32a8c';
+  const apiKey = '48ee988c-4053-4b42-860e-27a4414e5543';
   const nftName = mijnNaam;
   const nftDescription = 'NFT Collectie van gezichten van de campus';
   const walletAddress = '0x8e2D8112C881C68fa599a6d56e27656edC73bEc1';
