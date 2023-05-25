@@ -1,2 +1,4 @@
-export const myApiKey = 'yourKeyHere';
-export const myWalletAddress = 'yourWalletAddressHere';
+module.exports = {
+  myApiKey: 'yourKeyHere',
+  myWalletAddress: 'yourWalletAddressHere',
+};

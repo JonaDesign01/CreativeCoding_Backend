@@ -1,6 +1,5 @@
 const { log } = require('console');
-import { myApiKey } from './secrets';
-import { myWalletAddress } from './secrets';
+let secrets = require('./secrets.js');
 
 module.exports.save = function (filename) {
   //make nft
@@ -18,10 +17,10 @@ module.exports.save = function (filename) {
   }
   let mijnNaam = generateUniqueName();
 
-  const apiKey = myApiKey;
+  const apiKey = secrets.myApiKey;
   const nftName = mijnNaam;
   const nftDescription = 'NFT Collectie van gezichten van de campus';
-  const walletAddress = myWalletAddress;
+  const walletAddress = secrets.myWalletAddress;
 
   const form = new FormData();
   const fileStream = fs.createReadStream(filename);
