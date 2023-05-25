@@ -1,4 +1,6 @@
 const { log } = require('console');
+import { myApiKey } from './secrets';
+import { myWalletAddress } from './secrets';
 
 module.exports.save = function (filename) {
   //make nft
@@ -16,10 +18,10 @@ module.exports.save = function (filename) {
   }
   let mijnNaam = generateUniqueName();
 
-  const apiKey = '48ee988c-4053-4b42-860e-27a4414e5543';
+  const apiKey = myApiKey;
   const nftName = mijnNaam;
   const nftDescription = 'NFT Collectie van gezichten van de campus';
-  const walletAddress = '0x8e2D8112C881C68fa599a6d56e27656edC73bEc1';
+  const walletAddress = myWalletAddress;
 
   const form = new FormData();
   const fileStream = fs.createReadStream(filename);
@@ -105,8 +107,7 @@ module.exports.save = function (filename) {
               console.log(`PDF saved to ${filePath}`);
               await server.close();
 
-              const printerName = 'Canon_TS5000_series'; // HP_DeskJet_2600_series__D6D680__20230422144935
-
+              const printerName = 'Canon_TS5000_series';
               try {
                 const { stdout, stderr } = await exec(
                   `lp -d ${printerName} ${filePath}`,
