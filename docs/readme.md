@@ -18,6 +18,8 @@ https://github.com/JonaDesign01/CreativeCoding_Backend
 
 ## Backend
 
+Add folders called "screenshots", "uploads", "qrcodes" to the project.
+
 Change secrets.example to secrets.js and add your API key and crypto walletAdress.
 
 ```
