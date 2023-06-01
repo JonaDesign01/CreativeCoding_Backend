@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 uploads
+qrcodes
+screenshots
 dist
 dist-ssr
 *.local
