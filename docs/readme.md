@@ -16,8 +16,8 @@ https://mergedminds.framer.website
 
 Below is the setup process to start the installation.
 
-You will need to use seperate backend code to run:
-https://github.com/JonaDesign01/CreativeCoding_Backend
+You will need to use seperate frontend code to run:
+https://github.com/JonaDesign01/CreativeCoding_Frontend
 
 ## Backend
 
