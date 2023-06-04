@@ -7,7 +7,10 @@ Van elke versie van het grid wordt steeds automatisch een NFT gemaakt die je kan
 Ik maak gebruik van een Raspberry pi, een webcam, een printer, (eventueel Philips hue lampen) en een grote hoeveelheid aan (backend) code. De programmeertalen zijn voornamelijk javascript zelf en node.js.
 
 ![videothumbnail.](/mdImages/videothumbnail.png 'This is a sample image.')
-Link naar de video
+https://youtu.be/BvrR-T2BbYY
+
+Link naar de website:
+https://mergedminds.framer.website
 
 # Installation
 
